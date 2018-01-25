@@ -9,7 +9,6 @@ function getIt(){
 function frameIt(){
   $('img').on('load', function(e){
     e.className = 'tasty';
-    console.log(e.className);
   })
 }
 
