@@ -1,12 +1,12 @@
 //define functions here
 function getIt(){
-  $('p').addEventListener('click', function(e){
+  $('p').on('click', function(e){
     alert("Hey!");
   });
 }
 
 function frameIt(){
-  $('')
+  $('img').on('load')
 }
 
 $(document).ready(function(){
